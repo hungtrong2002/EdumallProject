@@ -1,2 +1,2 @@
 # EdumallProject
-A small project developed by SpringBoot
+A small project developed by Hung Nguyen Trong
