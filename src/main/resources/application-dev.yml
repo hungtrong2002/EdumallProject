@@ -1,0 +1,32 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+  devtools:
+    add-properties: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: swagger-ui.html
+
+openapi:
+  service:
+    api-docs: EdumalProject
+    title: Backend API Document
+    version: v1.1.0
+    server: http://localhost:${server.port}
+
+jwt:
+    secretKey: devkey
+
