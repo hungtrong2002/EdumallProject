@@ -1,5 +1,5 @@
 # EdumallProject
-<<<<<<< HEAD
+<<<<<<< HEAD>>>>>>>
 A small project developed by Hung Nguyen Trong
 =======
 A small project developed by me 
